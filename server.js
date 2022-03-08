@@ -9,7 +9,7 @@ dotenv.config()
 
 const app = express()
 
-const dbUrl = "mongodb+srv://adrian:phonebook@phonebook.si5yw.mongodb.net/myPhones?retryWrites=true&w=majority"
+const dbUrl = process.env.PHONES_DB_URI
 
 const PORT = process.env.PORT || 5000
 

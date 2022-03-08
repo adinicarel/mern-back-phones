@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const databaseURL = "mongodb+srv://adrian:phonebook@phonebook.si5yw.mongodb.net/myPhones?retryWrites=true&w=majority";
+const databaseURL = process.env.PHONES_DB_URI
 
 
 const databaseConfig = () => {
