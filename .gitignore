@@ -3,9 +3,3 @@
 # dependencies
 /node_modules
 
-# production
-/build/Release
-
-#environment variables
-.env
-.env.production
